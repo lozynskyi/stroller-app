@@ -4,21 +4,12 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "eole/sandstone": "^2.1.0",
-        "jdesrosiers/silex-cors-provider": "^1.4.0",
-        "alcalyn/serializable-api-response": "~1.0",
-        "doctrine/cache": "1.x",
-        "ddesrosiers/silex-annotation-provider": "2.x",
-        "dflydev/doctrine-orm-service-provider": "2.x"
     },
     "require-dev": {
-        "silex/web-profiler": "2.x",
-        "sorien/silex-dbal-profiler": "^2.1.0"
+
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/alcalyn/silex-dbal-profiler.git"
         }
     ],
     "autoload": {
