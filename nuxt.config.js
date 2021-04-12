@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  target: 'server',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -47,10 +47,12 @@ export default {
         url: 'http://localhost:8000', //.env
         endpoints: {
           login: {
-            url: '/api/login'
+            url: '/api/login',
+            method: 'POST'
           },
           logout: {
-            url: '/api/logout'
+            url: '/api/logout',
+            method: 'POST'
           }
           }
         }
