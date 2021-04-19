@@ -1,4 +1,4 @@
-# WBSClient
+# WebSocketClient
 
 ## Build Setup
 
